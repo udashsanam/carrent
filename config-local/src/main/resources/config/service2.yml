@@ -1,0 +1,2 @@
+spring:
+  greeting: Hello from service 2

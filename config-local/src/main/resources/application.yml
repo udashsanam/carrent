@@ -1,0 +1,6 @@
+server:
+  port: 8191
+#this tell that file store locally
+spring:
+  profiles:
+    active: native
