@@ -5,9 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/krish/spring-cloud-config-store
+#          uri: https://github.com/krish/spring-cloud-config-store
 #          tells that search into folder matching this pattern
 #          http://localhost/serice/sufix
 #          we can add multiple repo
+#          search-paths:
+#            - '*service'
+          uri: https://github.com/krish/microservices-course-on-youtube-config-store
           search-paths:
-            - '*service'
+            - 'service-config/*service'
