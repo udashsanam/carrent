@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: membership
+
+#    application name will specify which profile to get from config server
